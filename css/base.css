@@ -1,0 +1,157 @@
+/*清除基本样式*/
+*{margin:0 0;padding:0 0;-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+}
+img{width:100%;}
+a{text-decoration:none;color:inherit;font-size: inherit;}
+p{
+	font-size: 0.8rem;
+	word-break:break-all;
+}
+ul li{list-style:none;font-size: 0.8rem;}
+::webkit-scrollbar{
+	width:3px;
+}
+::webkit-scrollbar-button{
+
+}
+::selection {
+color: #fff;
+color: rgba(255,255,255,0.9);
+background: #ea4c89;
+text-shadow: none;
+}
+.clear{clear:both;}
+/*样式自定义样式开始*/
+#main{
+	width: 1000px;
+	margin:0 auto;
+}
+h1{
+	line-height: 2;
+	border-bottom: 1px dashed #666;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.text-danger{
+	color: #f05050;
+}
+#edit a{
+	line-height: 2;
+	margin-bottom:15px;
+	font-size: 12px;
+}
+#main-form label{
+	display: block;
+	font-size: 14px;
+}
+#main-form{
+	width: 400px;
+}
+input:focus,textarea:focus{
+	border: 2px solid #;
+	outline: none;             
+	border-color: #9ecaed;             
+	box-shadow: 0 0 10px #9ecaed;
+}
+#main-form input,textarea{
+	margin: 10px;
+    padding: 5px 0;
+    color: #555;
+    text-indent: 5px;
+    font-size: 0.8rem;
+    background: rgba(255,255,255,0.9);
+    border: 1px solid #ccc;
+    outline: none;
+}
+#main-form textarea{
+	width:100%;
+	height: 100px;
+}
+#submit-button{
+	width: 50px;
+	text-align: center;
+	font-size: 13px;
+}
+.message-item{
+	margin: 10px;
+}
+.message-content{
+	font-size: 13px;
+}
+.message-item{
+	margin:10px;
+	border-bottom:1px solid #999;
+	
+}
+.message-head{
+	position:absolute;
+	top:0;
+	left:-3.75rem;
+	width:50px;height:50px;border-radius:50%;overflow:hidden;
+}
+.message-indent{
+	position:relative;
+	margin-left:3.75rem;
+}
+.message-user-name{
+	line-height:1.56rem;
+	font-size:0.95rem;
+	color:#444;
+}
+.message-text{
+	position:relative;
+	margin:10px 0rem 10px 0; 
+	color:#333;
+	line-height:1.5rem;
+	font-size:0.82rem;
+}
+.message-text p{margin-right: 1.6rem}
+.message-meta{
+	line-height:1.56rem;
+	color:#444;
+	font-size:0.7rem;
+}
+.message-reply{
+	margin:10px 0;
+	color:#666;
+	background:#f1f1f1;
+	padding:10px 10px;
+	font-size:0.80rem;
+}
+.login{
+	position: absolute;
+	right: 10px;
+	top: 0;
+	font-size: 13px;
+	line-height: 50px;
+}
+#login-form{
+	position: absolute;
+	right: 10px;
+	top:55px;
+	display: none;
+	overflow: hidden;
+	padding: 10px;
+	border:1px solid rgba(0,0,0,0.15);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+#login-form li{
+}
+#login-form input{
+	margin: 10px;
+    padding: 5px 0;
+    color: #555;
+    text-indent: 5px;
+    font-size: 0.8rem;
+    background: rgba(255,255,255,0.9);
+    border: 1px solid #ccc;
+    outline: none;
+}
+.s-button{
+	cursor:pointer;
+	width: 50px;
+}
